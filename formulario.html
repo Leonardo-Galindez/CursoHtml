@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        hola
+    </header>
+    <div class="titulo">
+        <h1>Formulario de Registro</h1>
+    </div>
+
+    <div class="form">
+        <form action="registros.html" method="set">
+            <div>
+                <p><label for="nombre">Nombre: <br><input class="inputs" type="text"></label></p>
+                <p><label for="apellido">Apellido:<br> <input class="inputs" type="text"></label></p>
+                <p><label for="edad">Edad: <br><input class="inputs" type="text"></label></p>
+                <p>
+                    <label>Sexo:<br>
+                        <select class="inputs" name="" id="sexo">
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="-" selected>-</option>
+                        </select>
+                    </label>
+                </p>
+                <p><label for="">Estado Civil:</label></p>
+                <p>
+                    <input type="radio" value="cazado">
+                    <label for="cazado">Cazado</label>
+
+                    <input type="radio" value="soltero">
+                    <label for="soltero">Soltero</label>
+
+                    <input type="radio" value="otro">
+                    <label for="otro">Otro</label>
+                </p>
+                <p>Observación:</p>
+                <p><label for="obs"><textarea class="inputsText" id="observacion" cols="30"
+                            rows="10"></textarea></label>
+
+                <div class="container-boton">
+                    <p><button class="botonEnviar" type="submit">Enviar</button></p>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

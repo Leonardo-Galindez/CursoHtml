@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url('https://img.freepik.com/vector-premium/fondo-pantalla-paisaje-paisaje-minimalista-puesta-sol-montana-full-hd-4k-8k-imagenes-fondo_538866-33.jpg');
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(192, 189, 189);
+}
+
+.inputsText {
+    border-radius: 5px;
+    background-color: rgb(192, 189, 189);
+    width: 300px;
+}
+
+p {
+    color: white;
+}
+
+.botonEnviar {
+    background-color: rgb(192, 189, 189);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.container-boton {
+    display: flex;
+    justify-content: center;
+
+}
